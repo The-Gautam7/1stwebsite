@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(97, 94, 91);
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+}
+
+#container{
+    background-color: rgba(17, 30, 44, 0.671);
+    width: 95%;
+    padding: 10px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+#nav{
+    background-color: rgba(185, 194, 205, 0.932);
+    height: 40px;
+}
+
+#nav ul{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+#nav li{
+    list-style: none;
+    float:left;
+    padding-right: 20px;
+}
+
+#nav .active{
+    font-weight: bold;
+    color: rgb(11, 4, 74);
+}
+
+#main{
+    float: left;
+    width: 60%;
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: rgba(90, 57, 57, 0.325);
+    margin-top: 10px;
+    padding: 10px;
+}
+ 
+#footer{
+    text-align: center;
+    background-color: #666;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.services li{
+    border-bottom: 2px #000 dashed;
+    padding-bottom: 10px;
+}
+
+.services a{
+    background-color: rgb(38, 42, 66);
+    padding: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+textarea{
+    height: 10em;
+}
+
+
+
